@@ -5,14 +5,14 @@ public class bubble_sort {
 	public static void main(String[] args) {
 		
 				Scanner sc=new Scanner(System.in);
-				int A[]=new int[5];
+				int A[]=new int[5];//array input
 				for(int k=0;k<5;k++)
 				{
 					System.out.println("Enter a number");
 					A[k]=sc.nextInt();
 					
 				}
-				int tmp;
+				int tmp;//temporary variable
 				for(int i=0;i<5;i++)
 				   {
 				       for(int j=i+1;j<5;j++)
